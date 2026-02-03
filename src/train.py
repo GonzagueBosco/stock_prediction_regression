@@ -10,7 +10,7 @@ df = get_stock_data("AAPL", "2020-01-01", "2025-01-01")
 df = add_features(df)
 
 # 2. Choix des variables (X) et de la cible (y)
-X = df[['SMA_10', 'SMA_50']]
+X = df[['SMA_10', 'SMA_50', 'RSI']]
 y = df['Target']
 
 # 3. Split Temporel (80% entraînement, 20% test)
