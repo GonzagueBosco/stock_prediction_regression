@@ -4,7 +4,7 @@ This project uses Scikit-Learn to predict the next day's closing price of a stoc
 
 ## Features
 - Data ingestion via `yfinance`.
-- Feature engineering: 10-day and 50-day Moving Averages.
+- Feature engineering: 10-day, 50-day Moving Averages and RSI.
 - Model: Linear Regression.
 
 ## How to use
